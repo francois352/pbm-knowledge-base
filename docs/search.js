@@ -3,7 +3,7 @@
  * Simple but effective search implementation
  */
 
-// Search index will be populated from content
+// Search index - Updated with actual available articles
 const searchIndex = [
     {
         title: "Qu'est-ce que la Photobiomodulation (PBM) ?",
@@ -14,60 +14,60 @@ const searchIndex = [
         readTime: "15 min"
     },
     {
-        title: "Le Potentiel Synergique du Neurofeedback et de la PBM",
-        url: "clinical/nfb-synergy.html",
-        category: "Applications Cliniques",
-        excerpt: "Analyse complète de la synergie entre la photobiomodulation Vielight et le neurofeedback pour optimiser le bien-être cérébral.",
-        keywords: ["neurofeedback", "NFB", "synergie", "cerveau", "neuroplasticité", "Lisa Lai", "combinaison"],
-        readTime: "25 min"
-    },
-    {
         title: "Vielight Neuro-4 : Guide Complet",
         url: "devices/neuro-4.html",
         category: "Appareils",
-        excerpt: "Guide utilisateur complet du Vielight Neuro-4, l'appareil de photobiomodulation transcranienne le plus avancé.",
-        keywords: ["Vielight", "Neuro-4", "transcranien", "810nm", "gamma", "appareil", "guide"],
+        excerpt: "Guide utilisateur complet du Vielight Neuro-4, l'appareil de photobiomodulation transcranienne le plus avancé. Spécifications techniques, protocoles d'utilisation, positionnement des modules.",
+        keywords: ["Vielight", "Neuro-4", "Neuro Duo", "transcranien", "810nm", "gamma", "alpha", "appareil", "guide"],
         readTime: "20 min"
     },
     {
-        title: "Revue Complète de la Photobiomodulation",
-        url: "research/comprehensive-review.html",
-        category: "Recherche",
-        excerpt: "Revue exhaustive de 19 pages couvrant les mécanismes, applications, technologie Vielight, limites actuelles et directions futures.",
-        keywords: ["revue", "recherche", "scientifique", "mécanismes", "applications", "Lisa Lai", "complet"],
-        readTime: "30 min"
-    },
-    {
-        title: "Vielight Vagus : Guide d'Utilisation",
+        title: "Vielight Vagus : Stimulation Vagale Photobiomodulée",
         url: "devices/vagus.html",
         category: "Appareils",
-        excerpt: "Guide complet du Vielight Vagus pour la stimulation du nerf vague par photobiomodulation.",
-        keywords: ["Vagus", "nerf vague", "Vielight", "intranasal", "guide", "stimulation"],
-        readTime: "10 min"
-    },
-    {
-        title: "Aspects Légaux et Réglementaires de la PBM",
-        url: "research/legal-aspects.html",
-        category: "Recherche",
-        excerpt: "Cadre légal et réglementaire pour les appareils de photobiomodulation cérébrale en Europe, Luxembourg, France, et Allemagne.",
-        keywords: ["légal", "réglementation", "Europe", "Luxembourg", "RGPD", "conformité", "Lisa Lai"],
+        excerpt: "Guide complet du Vielight Vagus pour la stimulation non invasive du nerf vague par photobiomodulation. Positionnement optimal, bénéfices et protocoles d'utilisation.",
+        keywords: ["Vagus", "nerf vague", "Vielight", "intranasal", "guide", "stimulation", "810nm"],
         readTime: "15 min"
     },
     {
-        title: "FAQ : Questions Fréquentes sur la PBM",
-        url: "basics/faq.html",
-        category: "Fondamentaux",
-        excerpt: "Plus de 100 questions-réponses sur la photobiomodulation, la sécurité, l'efficacité, et les applications cliniques.",
-        keywords: ["FAQ", "questions", "réponses", "sécurité", "efficacité", "contre-indications"],
-        readTime: "30 min"
+        title: "Nos Offres : Neuro-4 + Vagus",
+        url: "packs.html",
+        category: "Équipement",
+        excerpt: "Pack Autonomie (€3,700 TTC) et Pack Guidé avec formation personnalisée (€4,000 TTC). Vielight Neuro Duo 4 + Vagus avec expertise QEEG.",
+        keywords: ["prix", "offre", "pack", "tarif", "autonomie", "guidé", "formation", "QEEG", "acheter"],
+        readTime: "10 min"
     },
     {
-        title: "PBM pour Alzheimer et Démence",
-        url: "clinical/alzheimers.html",
+        title: "Fondamentaux de la PBM",
+        url: "basics/index.html",
+        category: "Fondamentaux",
+        excerpt: "Comprendre les mécanismes, la science et les bases de la photobiomodulation. Articles sur les processus cellulaires, paramètres optimaux et histoire de la PBM.",
+        keywords: ["fondamentaux", "introduction", "science", "mécanismes", "bases"],
+        readTime: "5 min"
+    },
+    {
+        title: "Appareils Vielight",
+        url: "devices/index.html",
+        category: "Appareils",
+        excerpt: "Découvrez la gamme complète des appareils de photobiomodulation Vielight. Guides d'utilisation, spécifications techniques et comparatifs.",
+        keywords: ["appareils", "dispositifs", "équipement", "Vielight", "gamme"],
+        readTime: "5 min"
+    },
+    {
+        title: "Applications Cliniques",
+        url: "clinical/index.html",
         category: "Applications Cliniques",
-        excerpt: "Applications de la photobiomodulation pour la maladie d'Alzheimer et les démences : mécanismes, études cliniques, et protocoles.",
-        keywords: ["Alzheimer", "démence", "cognition", "mémoire", "neuroprotection", "bêta-amyloïde"],
-        readTime: "20 min"
+        excerpt: "Découvrez les applications thérapeutiques de la PBM : neurofeedback, protocoles cliniques, et synergies. Basé sur 2,500+ analyses QEEG et 1,500+ sessions.",
+        keywords: ["clinique", "thérapie", "neurofeedback", "protocoles", "applications", "QEEG"],
+        readTime: "5 min"
+    },
+    {
+        title: "Recherche Scientifique",
+        url: "research/index.html",
+        category: "Recherche",
+        excerpt: "37 études scientifiques, revues complètes, et bibliographie des recherches sur la photobiomodulation. Analyses par Lisa Lai et autres experts.",
+        keywords: ["recherche", "études", "science", "bibliographie", "Lisa Lai", "preuves"],
+        readTime: "5 min"
     }
 ];
 

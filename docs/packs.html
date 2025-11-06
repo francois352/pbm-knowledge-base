@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Offres PBM Neurofeedback Luxembourg : Pack Autonomie (€3,700) et Pack Guidé (€4,000). Vielight Neuro-4 + Vagus avec formation personnalisée.">
+    <title>Nos Offres : Neuro-4 + Vagus | Neurofeedback Luxembourg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .pricing-hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+        .pricing-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            padding: 3rem;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .pricing-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.15);
+        }
+        .pricing-card.recommended {
+            border: 3px solid #667eea;
+        }
+        .recommended-badge {
+            position: absolute;
+            top: -15px;
+            right: 20px;
+            background: #667eea;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .pack-name {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #1a202c;
+        }
+        .pack-price {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        .pack-price-note {
+            color: rgba(0,0,0,0.6);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+        .pack-description {
+            font-size: 1.1rem;
+            color: rgba(0,0,0,0.7);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        .pack-includes {
+            list-style: none;
+            padding: 0;
+            margin: 2rem 0;
+        }
+        .pack-includes li {
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            font-size: 1.05rem;
+            display: flex;
+            align-items: flex-start;
+        }
+        .pack-includes li:last-child {
+            border-bottom: none;
+        }
+        .pack-includes li::before {
+            content: "✓";
+            color: #48bb78;
+            font-weight: 700;
+            font-size: 1.3rem;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+        .pack-highlight {
+            background: #f7fafc;
+            border-left: 4px solid #667eea;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+        .pack-highlight h4 {
+            margin-top: 0;
+            color: #667eea;
+            font-size: 1.2rem;
+        }
+        .pack-highlight ul {
+            margin-bottom: 0;
+        }
+        .expertise-section {
+            background: #f7fafc;
+            padding: 4rem 0;
+            margin: 4rem 0;
+        }
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .expertise-item {
+            text-align: center;
+            padding: 2rem;
+        }
+        .expertise-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        .expertise-label {
+            font-size: 1.1rem;
+            color: rgba(0,0,0,0.7);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="color: inherit; text-decoration: none;">
+                        PBM Knowledge Base
+                    </a>
+                </div>
+                <nav class="nav" id="nav">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                    <a href="basics/index.html" class="nav-link">Fondamentaux</a>
+                    <a href="devices/index.html" class="nav-link">Appareils</a>
+                    <a href="clinical/index.html" class="nav-link">Applications</a>
+                    <a href="research/index.html" class="nav-link">Recherche</a>
+                    <div class="lang-selector">
+                        <button class="lang-btn active" data-lang="fr">FR</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="de">DE</button>
+                    </div>
+                </nav>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pricing-hero">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Nos Offres : Photobiomodulation Complète</h1>
+            <p style="font-size: 1.3rem; max-width: 800px; margin: 0 auto;">
+                Vielight Neuro Duo 4 + Vagus • Formation personnalisée • Expertise QEEG
+            </p>
+        </div>
+    </section>
+
+    <!-- Pricing Cards -->
+    <section style="padding: 4rem 0;">
+        <div class="container">
+            <div class="pricing-grid">
+                <!-- Pack Autonomie -->
+                <div class="pricing-card">
+                    <h2 class="pack-name">Pack Autonomie</h2>
+                    <div class="pack-price">€3,700</div>
+                    <div class="pack-price-note">TTC • Livraison incluse</div>
+                    <p class="pack-description">
+                        Pour les utilisateurs autonomes et à l'aise avec la technologie.
+                        Équipement complet avec guide d'utilisation détaillé.
+                    </p>
+
+                    <ul class="pack-includes">
+                        <li><strong>Vielight Neuro Duo 4</strong> (Alpha 10Hz + Gamma 40Hz)</li>
+                        <li><strong>Vielight Vagus</strong> (stimulation vagale photobiomodulée)</li>
+                        <li>Guide complet d'utilisation (FR ou EN)</li>
+                        <li>Technologie 810nm transcranienne + intranasale</li>
+                        <li>Séances auto-minutées (20-25 minutes)</li>
+                        <li>Certification médicale CE</li>
+                        <li><strong>Garantie fabricant 2 ans</strong></li>
+                    </ul>
+
+                    <a href="mailto:info@neurofeedback-luxembourg.com?subject=Pack Autonomie PBM" class="btn btn-secondary btn-large" style="width: 100%;">
+                        Contactez-nous
+                    </a>
+                </div>
+
+                <!-- Pack Guidé -->
+                <div class="pricing-card recommended">
+                    <div class="recommended-badge">RECOMMANDÉ</div>
+                    <h2 class="pack-name">Pack Guidé</h2>
+                    <div class="pack-price">€4,000</div>
+                    <div class="pack-price-note">TTC • Formation incluse</div>
+                    <p class="pack-description">
+                        Pour une première utilisation optimale. Tout le Pack Autonomie PLUS
+                        une formation personnalisée de 2 heures avec notre expert.
+                    </p>
+
+                    <ul class="pack-includes">
+                        <li><strong>Tout le contenu du Pack Autonomie</strong></li>
+                        <li style="border-bottom: 2px solid #667eea; padding-bottom: 1.5rem;"></li>
+                        <li><strong>Formation personnalisée 2h</strong> (en personne ou visio)</li>
+                        <li>Manipulation pratique supervisée</li>
+                        <li><strong>Protocole sur mesure</strong> selon votre profil</li>
+                        <li><strong>Intégration données QEEG</strong> (si disponibles)</li>
+                        <li>Conseils d'adaptation lifestyle</li>
+                        <li>Formation en français ou anglais</li>
+                    </ul>
+
+                    <div class="pack-highlight">
+                        <h4>Expertise Clinique Incluse</h4>
+                        <ul style="margin: 0; padding-left: 1.5rem;">
+                            <li>+2,500 analyses QEEG cérébrales</li>
+                            <li>+1,500 sessions neurofeedback</li>
+                            <li>Intégration PBM + Neurofeedback</li>
+                        </ul>
+                    </div>
+
+                    <a href="mailto:info@neurofeedback-luxembourg.com?subject=Pack Guidé PBM - Réservation Formation" class="btn btn-primary btn-large" style="width: 100%;">
+                        Réservez votre place
+                    </a>
+                </div>
+            </div>
+
+            <!-- Comparison Note -->
+            <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f7fafc; border-radius: 8px;">
+                <h3 style="margin-top: 0; color: #667eea;">Différence : €300 pour 2h de formation personnalisée</h3>
+                <p style="margin-bottom: 0; font-size: 1.1rem; color: rgba(0,0,0,0.7);">
+                    La formation vous permet de créer un protocole adapté à votre situation spécifique,
+                    d'intégrer vos données QEEG si disponibles, et d'optimiser vos résultats dès le départ.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise-section">
+        <div class="container">
+            <h2 class="text-center" style="font-size: 2.5rem; margin-bottom: 1rem;">Notre Expertise Unique</h2>
+            <p class="text-center" style="font-size: 1.2rem; color: rgba(0,0,0,0.7); max-width: 700px; margin: 0 auto 3rem;">
+                Une expérience clinique exceptionnelle au service de votre bien-être cérébral
+            </p>
+
+            <div class="expertise-grid">
+                <div class="expertise-item">
+                    <div class="expertise-number">+2,500</div>
+                    <div class="expertise-label">Analyses QEEG<br>Cartographies cérébrales</div>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-number">+1,500</div>
+                    <div class="expertise-label">Sessions Neurofeedback<br>Protocoles personnalisés</div>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-number">100%</div>
+                    <div class="expertise-label">Approche intégrée<br>PBM + Neurofeedback</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Details -->
+    <section style="padding: 4rem 0;">
+        <div class="container">
+            <h2 class="text-center" style="font-size: 2.5rem; margin-bottom: 3rem;">Équipement Inclus</h2>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                <div style="padding: 2rem; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #667eea; margin-bottom: 1rem;">Vielight Neuro Duo 4</h3>
+                    <ul style="line-height: 1.8;">
+                        <li>Photobiomodulation transcranienne + intranasale</li>
+                        <li>Longueur d'onde : 810nm (proche infrarouge)</li>
+                        <li>2 modes : Alpha (10Hz) et Gamma (40Hz)</li>
+                        <li>5 modules LED + applicateur nasal</li>
+                        <li>Sessions de 20-25 minutes (auto-minutées)</li>
+                        <li>Certification CE Medical</li>
+                    </ul>
+                    <a href="devices/neuro-4.html" class="btn btn-secondary">En savoir plus</a>
+                </div>
+
+                <div style="padding: 2rem; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #667eea; margin-bottom: 1rem;">Vielight Vagus</h3>
+                    <ul style="line-height: 1.8;">
+                        <li>Stimulation vagale photobiomodulée</li>
+                        <li>Longueur d'onde : 810nm</li>
+                        <li>Positionnement cervical non invasif</li>
+                        <li>Modulation du système nerveux autonome</li>
+                        <li>Complément idéal du Neuro-4</li>
+                        <li>Batterie rechargeable intégrée</li>
+                    </ul>
+                    <a href="devices/vagus.html" class="btn btn-secondary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="padding: 4rem 0; background: #f7fafc;">
+        <div class="container">
+            <h2 class="text-center" style="font-size: 2.5rem; margin-bottom: 3rem;">Questions Fréquentes</h2>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 8px;">
+                    <h3 style="color: #667eea; margin-top: 0;">Quelle est la différence entre les deux packs ?</h3>
+                    <p style="margin-bottom: 0;">
+                        Le Pack Guidé inclut tout le Pack Autonomie PLUS 2 heures de formation personnalisée
+                        (en personne ou par visioconférence). Cette formation vous permet de créer un protocole
+                        adapté à votre situation, d'intégrer vos données QEEG, et d'optimiser vos résultats.
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 8px;">
+                    <h3 style="color: #667eea; margin-top: 0;">Puis-je payer en plusieurs fois ?</h3>
+                    <p style="margin-bottom: 0;">
+                        Contactez-nous pour discuter des options de paiement disponibles.
+                        Nous proposons des solutions adaptées à votre situation.
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 8px;">
+                    <h3 style="color: #667eea; margin-top: 0;">La formation est-elle disponible en français ?</h3>
+                    <p style="margin-bottom: 0;">
+                        Oui ! La formation est disponible en français ET en anglais, selon votre préférence.
+                        Elle peut être réalisée en personne à notre clinique au Luxembourg, ou par visioconférence.
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 8px;">
+                    <h3 style="color: #667eea; margin-top: 0;">Quelle est la garantie ?</h3>
+                    <p style="margin-bottom: 0;">
+                        Les appareils Vielight bénéficient d'une garantie fabricant de 2 ans couvrant
+                        les défauts de matériaux et de fabrication.
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 8px;">
+                    <h3 style="color: #667eea; margin-top: 0;">Puis-je intégrer mes données QEEG ?</h3>
+                    <p style="margin-bottom: 0;">
+                        Oui, c'est un avantage majeur du Pack Guidé ! Si vous disposez de données QEEG
+                        (cartographie cérébrale), nous pouvons les intégrer pour créer un protocole
+                        PBM personnalisé adapté à votre profil neurologique unique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="padding: 6rem 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 3rem; margin-bottom: 1rem;">Prêt à Optimiser Votre Bien-être Cérébral ?</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 3rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Réservez votre place à notre formation dès maintenant. Places limitées.
+            </p>
+            <a href="mailto:info@neurofeedback-luxembourg.com?subject=Réservation Formation PBM" class="btn btn-large" style="background: white; color: #667eea; padding: 1.2rem 3rem; font-size: 1.2rem;">
+                Contactez-nous
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>À Propos</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Neurofeedback Luxembourg</a>
+                        <a href="#" class="footer-link">Notre Mission</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Ressources</h4>
+                    <div class="footer-links">
+                        <a href="basics/index.html" class="footer-link">Fondamentaux</a>
+                        <a href="devices/index.html" class="footer-link">Appareils</a>
+                        <a href="clinical/index.html" class="footer-link">Applications</a>
+                        <a href="research/index.html" class="footer-link">Recherche</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-links">
+                        <a href="mailto:info@neurofeedback-luxembourg.com" class="footer-link">info@neurofeedback-luxembourg.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Neurofeedback Luxembourg. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="search.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
