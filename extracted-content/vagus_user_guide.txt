@@ -1,0 +1,203 @@
+# vagus_user_guide
+Source: /mnt/g/My Drive/_Knowledge/_PBM/6.PBM_Bibliothèque/Selection for Knowledge Base/Vielight-Vagus-User-Guide.pdf
+Pages: 1
+Extracted: {'title': 'Vagus Guide9.14', 'author': 'N/A', 'subject': 'N/A', 'creator': 'Adobe Illustrator CS6 (Windows)', 'producer': 'Adobe PDF library 10.01', 'pages': 1}
+
+================================================================================
+
+
+
+--- Page 1 ---
+
+Vagus.280623.0www.vielight.com
+SAFETY ADVICE - LIGHT SOURCE
+SPECIFICATIONS
+SIDE B
+SIDE A
+®
+USE R   GUIDE
+C
+USING THE VIELIGHT VAGUS 5
+1
+4
+3
+2
+5
+VAGUS
+A
+A
+D
+Stainless 
+Steel Band
+Position the module as shown 
+below to stimulate the Vagus 
+nerve.
+Power 
+Button
+Controller
+Controller
+(top view)
+(side view)
+B
+LED Modules
+Power Plug
+REF Vielight Vagus
+CISPR 32:2012/
+EN 55032:2012
+CISPR 24:2012/
+EN 55024:2010
+Follow the instructions 
+in the user guide.
+DANGER!
+Optical Radiation
+Apertures
+Do not stare directly
+at the IR sources
+Wavelength: 810 nm
+Danger: 
+Device emits 
+optical 
+radiation
+Caution: This device 
+operates using repeated 
+exposure to near 
+infrared radiation (NIR).
+IR emitted from this 
+device may cause eye 
+irritation.
+Do not stare directly at 
+the IR sources.
+Caution: Optical radiation aperture
+Your Vielight Vagus is warranted to be free of defect in material and workmanship 
+under normal use. 
+This warranty is limited to a period of two years from the purchase date. Within 
+this period, repairs or exchange of parts that are deemed necessary by the 
+company will be made free of charge.
+This warranty does not cover damage by the following:
+a. Misuse, abuse or alteration to the product.
+b. Damage caused by accident or neglect.
+c. Service or repairs made by unauthorized persons.
+LIMITED TWO - YEAR WARRANTY
+WE SHALL NOT BE RESPONSIBLE FOR ANY INCIDENTAL, SPECIAL, OR 
+CONSEQUENTIAL DAMAGES RESULTING FROM THE USE OF THIS PRODUCT. 
+NOTE
+CARE AND CLEANING
+(North America) +1-877-355-8012
+info@vielight.com@
+F
+E
+Low Power Indicator. 
+Recharge power bank 
+when this light appears
+Interference may occur in the vicinity of known radio frequency (RF) 
+transmitting devices and equipment marked with the following 
+symbol.
+Do not drop or physically alter the device or provided components. 
+IR emitted from this product may cause eye irritation. Do not stare 
+at operating diodes for an extended amount of time.
+Read this guide thoroughly before use.
+WARNING!
+CAUTION!
+H
+G
+Nasal 
+Applicator
+Nasal Applicator 
+Plug
+Power 
+Adapter
+Vielight Inc.
+471 Jarvis Street 
+Toronto
+ON M4Y 2G8
+Canada
+1 2 3
+4 5 6
+When using the Vielight Vagus, users should not experience 
+any serious side eﬀects or physical discomfort. Some feeling 
+of warmth or minimal skin redness at the location of device 
+use may occur. If you experience discomfort,  contact Vielight 
+at +1 877 355 8012 (North America), info@vielight.com, or 
+chat at www.vielight.com.
+LED 
+Module
+When powered on, invisible 
+infrared light and a faint red 
+light are emitted at the tip of 
+the nasal applicator and diodes 
+of the neck modules.
+Nasal 
+Applicator
+Caution: Do not 
+stare at the lights.
+LED Speci/f_ications:
+Light source, LED module: 810 nm LED (50 mW/cm2 x 1)
+Light source, nasal applicator: 810 nm LED (25 mW)
+Pulse rate: 100 Hz
+Duty cycle: 50 %
+General Speci/f_ications:
+Treatment duration: Automatic shut-oﬀ at 20 +/- 0.1 minutes
+Low power indicator: < 4.2 V
+Power adapter: AC Input: 100-240 V, 0.5 A, 50/60 Hz
+  DC Output: 5 V, 2.0 A
+  
+VAGUS
+VAGUS
+Controller
+Controller
+VAGUS
+Nasal 
+Applicator 
+Plug
+USB Power 
+Plug
+Connect the USB power 
+plug [E] to the power 
+adapter [H] as shown on 
+page 1. Plug the power 
+adapter to the mains and 
+switch on the mains power.
+Connect the nasal 
+applicator plug [G] 
+to the controller [A].
+Insert the nasal 
+applicator [F] into 
+either the right or 
+left nostril with the 
+clip on the exterior 
+and the lens inside 
+the nostril.
+Check the power button [C] on the 
+device. If the power button displays a 
+solid green light, it means that the 
+device has power. Press the power 
+button again to switch on the device. 
+The green light will start blinking, 
+indicating that the device is powered on. 
+Additionally, check if the LED modules 
+and the nasal applicator have lights.
+Vagus Nerve
+The device will automatically switch oﬀ after 20 minutes, completing a 
+session. If you wish to end the session before the 20-minute mark, press 
+the power button to manually turn oﬀ the device.
+1. Options to clean the nasal applicator:
+    Wipe the nasal applicator gently with 70% alcohol or antiseptic wipes to help 
+disinfect the surface.
+    Clean the nasal applicator gently with soap and water. Rinse it thoroughly 
+afterward and let it dry before using it again.
+    Sanitize the nasal applicator with a UV lamp. Follow the manufacturer's 
+instructions for proper usage.
+2. For cleaning other surfaces, such as the device itself, use a soft, dry cloth to 
+clean these surfaces. Avoid using abrasive cleaners, as they can damage the 
+device.
+3. It is important not to submerge any of the components on the neck module in 
+liquid or cover them with other materials during use. This can cause damage to 
+the device and aﬀect its functionality.
+4. When storing the device, keep it in a dry and dust-free location. The recom-
+mended temperature range for storage is between 10°C to 40°C (50°F to 104°F). 
+It is also important to keep it away from direct sunlight, as prolonged exposure 
+to sunlight can potentially damage the device.
+5. Sharing devices and nasal applicators is not recommended, as it increases the 
+risk of spreading infectious diseases. To maintain hygiene and minimize the 
+chances of transmitting pathogens, it is best for each individual to have their 
+own personal device and nasal applicator.
