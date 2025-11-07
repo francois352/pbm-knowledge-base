@@ -1,52 +1,89 @@
 # Claude Code Web - Content Generation Strategy
 **Purpose:** Maximize free credits to generate 30+ knowledge base articles
-**Platform:** https://claude.ai (Claude Code Web)
+**Platform:** https://claude.ai/code (Claude Code Web - NOT regular claude.ai)
 **Budget:** Free tier credits
 **Timeline:** This week
 
+**IMPORTANT:** Use https://claude.ai/code (Claude Code Web) NOT regular claude.ai chat
+
 ---
 
-## 💡 STRATEGY: Batch Processing with Projects
+## 💡 STRATEGY: Use Claude Code Web Browser Interface
 
-### **Why Claude Code Web?**
-- ✅ Free tier includes generous credits
-- ✅ Projects feature = persistent context (don't repeat instructions)
-- ✅ Can upload documents (Lisa's PDFs)
-- ✅ Artifacts for HTML generation
+### **Why Claude Code Web (https://claude.ai/code)?**
+- ✅ Same as this CLI but in browser
+- ✅ Free tier credits (same as CLI)
+- ✅ Can access your GitHub repo directly
+- ✅ File editor built-in (create articles directly in repo)
+- ✅ Can read from `/home/francois352/Projects/ai-helpdesk/`
+- ✅ Git integration (commit directly)
 - ✅ Web-based (work from anywhere)
 
+**Key Advantage:** Can connect to your existing `ai-helpdesk` project and generate files directly into the correct folders!
+
 ---
 
-## 🎯 EFFICIENT WORKFLOW
+## 🎯 EFFICIENT WORKFLOW FOR CLAUDE CODE WEB
 
-### **Step 1: Create Claude Project** (One-time setup)
+### **Step 1: Open Claude Code Web**
 
-**Project Name:** "PBM Knowledge Base - Content Generation"
+1. Go to: **https://claude.ai/code**
+2. Login with your account (free tier)
+3. You'll see the same interface as this CLI!
 
-**Upload These Files to Project:**
-1. `extracted-content/lisa_comprehensive_review.txt`
-2. `extracted-content/lisa_vielight_nfb_synergy.txt`
-3. `extracted-content/neuro4_user_guide.txt`
-4. `extracted-content/vagus_user_guide.txt`
-5. `PBM-OFFER-DETAILS-2025.md`
-6. `docs/style.css` (for design consistency)
+### **Step 2: Connect to Your Project**
 
-**Project Instructions (Custom Instructions):**
+**In Claude Code Web, run:**
 ```
-You are creating articles for a PBM knowledge base.
-
-CRITICAL RULES:
-- Use EXACT pricing from PBM-OFFER-DETAILS-2025.md (€3,700-4,000)
-- Match design: Purple (#5d2c4c) + Pink (#ff00ab)
-- Base content on Lisa Lai's extracted PDFs
-- Patient-friendly language (not academic)
-- Include: Meta description, related articles section
-- Format: HTML matching docs/style.css structure
-
-Target audience: Prospective PBM patients
-Tone: Professional but accessible
-Length: 1,500-2,500 words per article
+Open folder: /home/francois352/Projects/ai-helpdesk
 ```
+
+OR
+
+**Clone from GitHub:**
+```
+I want to work on my ai-helpdesk project.
+Clone: https://github.com/francois352/pbm-knowledge-base
+Location: /tmp/pbm-knowledge-base
+```
+
+### **Step 3: Generate Articles Directly**
+
+**No need to upload files** - Claude Code Web can read them directly!
+
+**Example Prompt:**
+```
+Read these files:
+- extracted-content/lisa_comprehensive_review.txt
+- extracted-content/neuro4_user_guide.txt
+- PBM-OFFER-DETAILS-2025.md
+
+Create 5 device articles in docs/devices/ folder:
+1. neuro-gamma.html
+2. neuro-alpha.html
+3. neuro-duo-4.html
+4. x-plus.html
+5. vagus.html
+
+For each:
+- Base on extracted content
+- Use EXACT pricing from PBM-OFFER-DETAILS-2025.md
+- Match design from docs/style.css
+- Include breadcrumbs, related articles
+- Patient-friendly language
+
+Create the files directly in docs/devices/
+```
+
+**Claude Code Web will:**
+- Read the extracted content
+- Generate all 5 HTML files
+- Write them to correct folders
+- Show you diffs before writing
+
+**You just:**
+- Review and approve
+- Commit with one click!
 
 ---
 
