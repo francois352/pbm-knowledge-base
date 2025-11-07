@@ -68,6 +68,14 @@ const searchIndex = [
         excerpt: "37 études scientifiques, revues complètes, et bibliographie des recherches sur la photobiomodulation. Analyses par Lisa Lai et autres experts.",
         keywords: ["recherche", "études", "science", "bibliographie", "Lisa Lai", "preuves"],
         readTime: "5 min"
+    },
+    {
+        title: "Synergie PBM + Neurofeedback",
+        url: "clinical/nfb-synergy.html",
+        category: "Applications Cliniques",
+        excerpt: "Le potentiel synergique de la photobiomodulation Vielight et du neurofeedback pour le bien-être cérébral. PBM prépare le cerveau, NFB entraîne l'autorégulation. Basé sur 1,500+ sessions.",
+        keywords: ["neurofeedback", "NFB", "synergie", "QEEG", "ondes cérébrales", "neuroplasticité", "Lisa Lai", "intégration"],
+        readTime: "25 min"
     }
 ];
 
