@@ -1,28 +1,76 @@
-# Python
-venv/
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.lcov
+
+# Production builds
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env*.local
+.env.development
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Mobile
+*.apk
+*.ipa
+*.app
+.expo
+.expo-shared
+android/
+ios/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.turbo
+.vercel
+
+# Python (for scripts)
 __pycache__/
 *.py[cod]
 *.so
 *.egg-info/
 .Python
-
-# Environment
-.env
-.env.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Build
-dist/
-build/
+venv/
