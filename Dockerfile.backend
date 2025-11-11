@@ -1,0 +1,52 @@
+# Backend Dockerfile
+FROM node:18-alpine AS base
+
+# Install dependencies only when needed
+FROM base AS deps
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+COPY backend/package*.json ./backend/
+COPY shared/package*.json ./shared/
+
+# Install dependencies
+RUN npm ci
+
+# Build shared package
+FROM base AS build-shared
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY shared ./shared
+COPY tsconfig.json ./
+RUN cd shared && npm run build
+
+# Build backend
+FROM base AS build
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY --from=build-shared /app/shared/dist ./shared/dist
+COPY backend ./backend
+COPY tsconfig.json ./
+RUN cd backend && npm run build
+
+# Production image
+FROM base AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 backend
+
+COPY --from=build --chown=backend:nodejs /app/backend/dist ./backend/dist
+COPY --from=build --chown=backend:nodejs /app/backend/package*.json ./backend/
+COPY --from=deps --chown=backend:nodejs /app/node_modules ./node_modules
+
+USER backend
+
+EXPOSE 3001
+
+ENV PORT 3001
+
+CMD ["node", "backend/dist/index.js"]

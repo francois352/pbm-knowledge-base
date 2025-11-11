@@ -11,6 +11,9 @@ import rateLimit from 'express-rate-limit';
 import { config } from './config/env';
 import { errorHandler, notFound } from './middleware/errorHandler';
 import { logger } from './utils/logger';
+import authRoutes from './routes/auth.routes';
+import contentRoutes from './routes/content.routes';
+import hrvRoutes from './routes/hrv.routes';
 
 const app = express();
 
@@ -49,10 +52,10 @@ app.get('/health', (_req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-// API routes will be added here
-// app.use('/api/v1/auth', authRoutes);
-// app.use('/api/v1/content', contentRoutes);
-// etc.
+// API routes
+app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/content', contentRoutes);
+app.use('/api/v1/hrv', hrvRoutes);
 
 // Error handling
 app.use(notFound);
